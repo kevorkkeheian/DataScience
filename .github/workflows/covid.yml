@@ -19,7 +19,7 @@ jobs:
     - run: |
         python -m pip install lxml
         pip install -r scripts/requirements.txt
-        python scripts/covid19.py
+        python scripts/covid19_daily.py
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
