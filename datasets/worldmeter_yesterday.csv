@@ -1,4 +1,4 @@
-,#,"Country,Other",TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,ActiveCases,"Serious,Critical",Tot Cases/1M pop,Deaths/1M pop,TotalTests,Tests/ 1M pop,Population
+,#,"Country,Other",TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,ActiveCases,"Serious,Critical",Tot Cases/1M pop,Deaths/1M pop,TotalTests,Tests/  1M pop,Population
 0,0.0,World,5397950,99938.0,343608.0,4183.0,2244885.0,2809457.0,53562.0,693.0,44.1,0.0,0.0,0.0
 1,1.0,China,82971,0.0,4634.0,0.0,78258.0,79.0,9.0,58.0,3.0,0.0,0.0,1439323776.0
 2,2.0,USA,1666828,21929.0,98683.0,1036.0,446914.0,1121231.0,17133.0,5039.0,298.0,14357969.0,43404.0,330801130.0
