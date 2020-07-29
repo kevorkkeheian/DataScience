@@ -3,3 +3,4 @@ pandas
 pyodbc
 requests
 html5lib
+BeautifulSoup4
