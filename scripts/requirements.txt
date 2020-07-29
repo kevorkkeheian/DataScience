@@ -2,3 +2,4 @@ numpy
 pandas
 pyodbc
 requests
+html5lib
