@@ -59,8 +59,8 @@ COVID19_ByCountry = ConfirmedCases_ByCountry.merge(RecoveredCases_ByCountry, on 
 
 
 
-COVID19_ByDate.to_csv('./datasets/COVID19_ByDate.csv', sep=',')
-COVID19_ByCountry.to_csv('./datasets/COVID19_ByCountry.csv',  sep=',')
+COVID19_ByDate.to_csv('./datasets/covid-19/summary-by-date.csv', sep=',')
+COVID19_ByCountry.to_csv('./datasets/covid-19/summary-by-country.csv',  sep=',')
 
 
 
@@ -91,4 +91,4 @@ CovidCases = ConfirmedCases.append(RecoveredCases, ignore_index=True).append(Dea
 
 CovidCases_Pivot = pd.pivot_table(CovidCases, values = "Value", index = ["Country/Region", "Date"], columns = "Type", aggfunc = np.sum)
 CovidCases = CovidCases_Pivot.reset_index()
-CovidCases.to_csv("./datasets/details/CovidCases.csv")
+CovidCases.to_csv("./datasets/covid-19/detailed-cases.csv")
